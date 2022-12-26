@@ -14,14 +14,14 @@ namespace MatrixCRUDTech.Models
         public string EmployeeFullName { get; set; }
         [Column(TypeName = "varchar(50)")]
         [DisplayName("Matrícula")]
-        public int EmpCode { get; set; }
+        public string EmpCode { get; set; }
         [Column(TypeName = "nvarchar(100)")]
         [DisplayName("Cargo")]
 
-        public int Position { get; set; }
+        public string Position { get; set; }
         [Column(TypeName = "varchar(100)")]
         [DisplayName("Localização")]
-        public int OfficeLocation { get; set; }
+        public string OfficeLocation { get; set; }
         
 
 
